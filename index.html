@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' type='text/css' href='./client/styles.css'>
+  </head>
+  <body>
+  <h1 style="color: white; margin: 0 auto; text-align: center">Zone-Dash</h1>
+  <audio id="main_theme" controls autoplay loop>
+    <source src="./client/media/ShootingStars.mp3" type="audio/mp3">
+  </audio>
+    <div class="scoreboard">
+      <div class="highscore">High score: <span class="hscore">0</span></div>
+      <div class="current">Current score: <span class="curr">0</span></div>
+      <div class="collisions">Collisions: <span class="collis">0</span></div>
+    </div>
+    <div class="boarz"><div class="mouse"></div></div>
+    <script src="./client/lib/d3.js" charset="utf-8"></script>
+    <script src='./client/index.js'></script>
+  </body>
+</html>
