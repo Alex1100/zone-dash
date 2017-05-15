@@ -1,0 +1,11 @@
+{
+  "name": "zone-dash",
+  "version": "1.0.0",
+  "description": "Avoid colliding with the red circles to keep increasing the score. See if you could top yourself or friend's high score.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex1100 <alex100.software@gmail.com>",
+  "license": "GPL-3.0"
+}
